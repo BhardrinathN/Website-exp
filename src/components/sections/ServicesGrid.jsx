@@ -94,7 +94,7 @@ const ServicesGrid = () => {
                   {service.description}
                 </p>
                 <Link
-                  to={`/services/${service.slug}`}
+                  to="/services"
                   className="text-accent hover:text-accent-600 text-sm font-medium inline-flex items-center gap-1 transition-colors"
                 >
                   Learn more →
