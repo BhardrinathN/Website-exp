@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Column 1: Logo & Description */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-flex items-center gap-3 group mb-5">
-              <img src="/images/divine-pic.png" alt="Divine Logo" className="h-10 md:h-12 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}images/divine-pic.png`} alt="Divine Logo" className="h-10 md:h-12 object-contain" />
               <span className="text-lg font-bold tracking-wide text-white uppercase">
                 Divine Packaging Industry
               </span>

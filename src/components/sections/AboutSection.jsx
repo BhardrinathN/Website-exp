@@ -24,14 +24,14 @@ const AboutSection = () => {
             <div className="relative w-full max-w-lg mx-auto lg:mx-0">
               {/* Main large image */}
               <img
-                src="/images/entrance_pic.jpg"
+                src={`${import.meta.env.BASE_URL}images/entrance_pic.jpg`}
                 alt="Factory operations"
                 className="rounded-card w-full h-auto object-cover shadow-md"
               />
               {/* Smaller overlapping image — top right */}
               <div className="absolute -top-4 -right-4 md:-top-6 md:-right-6 w-24 md:w-32 bg-white rounded-card shadow-xl border-4 border-white p-2">
                 <img
-                  src="/images/divine-pic.png"
+                  src={`${import.meta.env.BASE_URL}images/divine-pic.png`}
                   alt="Divine Packaging Logo"
                   className="object-contain w-full h-auto"
                 />

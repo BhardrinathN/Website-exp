@@ -20,7 +20,7 @@ export const fallbackProducts = [
     slug: { current: "wooden-pallets" },
     description: "Heavy-duty wooden pallets engineered for industrial logistics. Available in standard and custom sizes to meet your specific requirements. Built with kiln-dried hardwood for maximum durability and load-bearing capacity.",
     category: "Wood Products",
-    mainImage: "/images/products/wooden-pallets.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/wooden-pallets.png`,
     specs: [
       { label: "Material", value: "Kiln-dried Hardwood" },
       { label: "Load Capacity", value: "Up to 2000 kg" },
@@ -36,7 +36,7 @@ export const fallbackProducts = [
     slug: { current: "plywood-boxes" },
     description: "Lightweight yet sturdy plywood boxes for safe transportation of goods. Ideal for export packaging with ISPM-15 compliance. Custom dimensions and reinforcement options available.",
     category: "Wood Products",
-    mainImage: "/images/products/plywood-boxes.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/plywood-boxes.png`,
     specs: [
       { label: "Material", value: "BWR Grade Plywood" },
       { label: "Thickness", value: "6mm to 19mm" },
@@ -52,7 +52,7 @@ export const fallbackProducts = [
     slug: { current: "corrugated-boxes" },
     description: "High-strength corrugated packaging for industrial and commercial applications. Multi-wall options available for heavy-duty protection. Custom printing and branding available.",
     category: "Paper Products",
-    mainImage: "/images/products/corrugated-boxes.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/corrugated-boxes.png`,
     specs: [
       { label: "Flute Type", value: "B, C, BC, E" },
       { label: "Ply", value: "3-ply to 7-ply" },
@@ -68,7 +68,7 @@ export const fallbackProducts = [
     slug: { current: "timber-crates" },
     description: "Heavy-duty timber crates designed for the safe packaging of heavy machinery and industrial equipment. Engineered with precision for maximum protection during transit.",
     category: "Wood Products",
-    mainImage: "/images/products/timber-crates.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/timber-crates.png`,
     specs: [
       { label: "Material", value: "Premium Timber" },
       { label: "Weight Capacity", value: "Up to 5000 kg" },
@@ -84,7 +84,7 @@ export const fallbackProducts = [
     slug: { current: "hdpe-packaging" },
     description: "Durable HDPE packaging solutions for chemical and industrial applications. Resistant to moisture, chemicals, and UV radiation. Available in drums, containers, and custom shapes.",
     category: "Polymer Products",
-    mainImage: "/images/products/hdpe-packaging.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/hdpe-packaging.png`,
     specs: [
       { label: "Material", value: "HDPE / PP" },
       { label: "Capacity", value: "5L to 250L" },
@@ -100,7 +100,7 @@ export const fallbackProducts = [
     slug: { current: "metal-packaging" },
     description: "Industrial metal containers and packaging for hazardous and heavy materials. Built to international safety standards with corrosion-resistant coatings.",
     category: "Metal Products",
-    mainImage: "/images/products/metal-packaging.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/metal-packaging.png`,
     specs: [
       { label: "Material", value: "MS / GI Steel" },
       { label: "Capacity", value: "20L to 200L" },
@@ -116,7 +116,7 @@ export const fallbackProducts = [
     slug: { current: "vacuum-packaging" },
     description: "Specialized vacuum packaging for sensitive equipment and machinery. Multi-layer barrier films for moisture and corrosion protection during long-term storage and ocean transit.",
     category: "Specialty",
-    mainImage: "/images/products/vacuum-packaging.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/vacuum-packaging.png`,
     specs: [
       { label: "Film Type", value: "VCI / Aluminum" },
       { label: "Layers", value: "Multi-layer barrier" },
@@ -132,7 +132,7 @@ export const fallbackProducts = [
     slug: { current: "epe-foam" },
     description: "Custom-molded EPE foam inserts for shock absorption and product protection. Ideal for fragile electronics, glass products, and precision instruments.",
     category: "Foam Products",
-    mainImage: "/images/products/epe-foam.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/epe-foam.png`,
     specs: [
       { label: "Material", value: "Expanded Polyethylene" },
       { label: "Density", value: "18–30 kg/m³" },
@@ -148,7 +148,7 @@ export const fallbackProducts = [
     slug: { current: "shrink-wrapping" },
     description: "Industrial shrink wrapping services for weather protection and load stabilization. On-site wrapping available for oversized cargo and machinery.",
     category: "Specialty",
-    mainImage: "/images/products/shrink-wrapping.png",
+    mainImage: `${import.meta.env.BASE_URL}images/products/shrink-wrapping.png`,
     specs: [
       { label: "Film Type", value: "LDPE / Cross-linked" },
       { label: "Thickness", value: "100–300 micron" },

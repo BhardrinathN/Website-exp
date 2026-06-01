@@ -57,7 +57,7 @@ const Navbar = () => {
       <nav className="container-custom h-full flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-1.5 md:gap-3 group" onClick={closeMobile}>
-          <img src="/images/divine-pic.png" alt="Divine Logo" className="h-8 sm:h-10 md:h-12 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}images/divine-pic.png`} alt="Divine Logo" className="h-8 sm:h-10 md:h-12 object-contain" />
           <span className="text-xs sm:text-base md:text-xl font-bold tracking-tight text-[#0d7a31] uppercase leading-tight whitespace-nowrap">
             Divine Packaging Industry
           </span>
@@ -70,7 +70,7 @@ const Navbar = () => {
               {link.name}
             </NavLink>
           ))}
-          <img src="/images/iso1.png" alt="ISO Certified" className="h-14 md:h-16 object-contain ml-4" />
+          <img src={`${import.meta.env.BASE_URL}images/iso1.png`} alt="ISO Certified" className="h-14 md:h-16 object-contain ml-4" />
         </div>
 
         {/* Desktop CTA + Mobile Toggle */}

@@ -31,11 +31,11 @@ const childVariants = {
 };
 
 const backgroundImages = [
-  '/images/2.jpg',
-  '/images/3.jpg',
-  '/images/4.jpg',
-  '/images/6.jpg',
-  '/images/9.jpg',
+  `${import.meta.env.BASE_URL}images/2.jpg`,
+  `${import.meta.env.BASE_URL}images/3.jpg`,
+  `${import.meta.env.BASE_URL}images/4.jpg`,
+  `${import.meta.env.BASE_URL}images/6.jpg`,
+  `${import.meta.env.BASE_URL}images/9.jpg`,
 ];
 
 const Hero = () => {
