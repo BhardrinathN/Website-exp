@@ -196,13 +196,13 @@ export const fallbackServices = [
 ];
 
 export const fallbackClients = [
-  { _id: "c1", name: "Grupo Antolin", logo: "https://www.google.com/s2/favicons?domain=grupoantolin.com&sz=128", industry: "Automotive" },
-  { _id: "c2", name: "Nissan", logo: "https://www.google.com/s2/favicons?domain=nissan.com&sz=128", industry: "Automotive" },
-  { _id: "c3", name: "Daimler", logo: "https://www.google.com/s2/favicons?domain=daimler.com&sz=128", industry: "Automotive" },
+  { _id: "c1", name: "Grupo Antolin", logo: `${import.meta.env.BASE_URL}logos/antolin.svg`, industry: "Automotive" },
+  { _id: "c2", name: "Nissan", logo: "https://www.google.com/s2/favicons?domain=nissanusa.com&sz=128", industry: "Automotive" },
+  { _id: "c3", name: "Daimler", logo: "https://www.google.com/s2/favicons?domain=mercedes-benz.com&sz=128", industry: "Automotive" },
   { _id: "c4", name: "Ford", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ford_Motor_Company_Logo.svg", industry: "Automotive" },
-  { _id: "c5", name: "Amazon", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg", industry: "E-commerce" },
+  { _id: "c5", name: "Amazon", logo: "https://www.google.com/s2/favicons?domain=amazon.com&sz=128", industry: "E-commerce" },
   { _id: "c6", name: "CavinKare", logo: "https://www.google.com/s2/favicons?domain=cavinkare.com&sz=128", industry: "FMCG" },
-  { _id: "c7", name: "Suzuki", logo: "https://www.google.com/s2/favicons?domain=globalsuzuki.com&sz=128", industry: "Automotive" },
+  { _id: "c7", name: "Suzuki", logo: "https://www.google.com/s2/favicons?domain=suzuki.com&sz=128", industry: "Automotive" },
 ];
 
 export const fallbackLocations = [
