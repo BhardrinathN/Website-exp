@@ -38,8 +38,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Divine Packaging Industry | Reliable Packaging Solutions for Industrial
-          India
+          Divine Packaging Industry
         </title>
         <meta
           name="description"
@@ -47,12 +46,12 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="industrial packaging, wooden pallets, corrugated boxes, packaging manufacturer India, Chennai packaging, ISPM-15, export packaging"
+          content="Divine packaging, wooden pallets, corrugated boxes, packaging manufacturer India, Chennai packaging, export packaging"
         />
         <link rel="canonical" href="https://www.divinepackaging.com" />
         <meta
           property="og:title"
-          content="Divine Packaging Industry | Reliable Packaging Solutions for Industrial India"
+          content="Divine Packaging Industry"
         />
         <meta
           property="og:description"
